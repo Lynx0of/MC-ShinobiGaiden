@@ -1,0 +1,26 @@
+{
+   "parent":"item/generated",
+   "textures":{
+      "layer0":"item/iron_ingot"
+   },
+   "overrides":[
+      {
+         "predicate":{
+            "custom_model_data":1501
+         },
+         "model":"mccosmetics:cosmetics/toffy_backpack"
+      },
+      {
+         "predicate":{
+            "custom_model_data":1510
+         },
+         "model":"mccosmetics:cosmetics/nocsy_pirate_hat"
+      },
+      {
+         "predicate":{
+            "custom_model_data":1515
+         },
+         "model":"mccosmetics:cosmetics/golden_anvil_staff"
+      }
+   ]
+}

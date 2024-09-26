@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "minecraft:block/weathered_cut_copper_doubleslab_bottom",
+    "front": "minecraft:block/weathered_cut_copper_doubleslab",
+    "side": "minecraft:block/weathered_cut_copper_doubleslab",
+    "top": "minecraft:block/weathered_cut_copper_doubleslab"
+  }
+}
