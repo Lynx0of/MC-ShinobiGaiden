@@ -2,4 +2,4 @@
 
 Resource pack for **Shinobi Gaiden**. File History → [Resource Packs](https://github.com/NingyMD/MC-ShinobiGaiden/tree/main/ResourcePacks)
 
-Discord Server: [![](https://dcbadge.limes.pink/api/server/INVITE)](http://discord.gg/shinobigaiden)
+![Static Badge](https://img.shields.io/badge/ShinobiGaiden-lightgray?style=flat&logo=discord&logoColor=5662f6)
