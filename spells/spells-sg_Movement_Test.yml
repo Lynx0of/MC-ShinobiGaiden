@@ -1,0 +1,7 @@
+LeapTest:
+  spell-class: ".instant.VelocitySpell"
+  name: "§7Leap"
+  cast-item: feather
+  speed: 10
+  cancel-damage: true
+  add-velocity-instead: true

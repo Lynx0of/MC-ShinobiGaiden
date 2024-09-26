@@ -1,0 +1,45 @@
+Substitution_Jutsu_Recall:
+  spell-class: ".instant.RecallSpell"
+  mark-spell: Substitution_Jutsu_Mark
+  max-range: 20
+  allow-cross-world: false
+  str-no-mark: §7You §c§lhaven't§r§7 prepared the §3§llocation§r§7.
+  effects:
+    eff1:
+      position: caster
+      effect: effectlib
+      effectlib:
+        class: ParticleEffect
+        visible_range: 150
+        particle: cloud
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
+        particle_count: 10
+        speed: 0.01
+        iterations: 1
+        relative_offset: 0,0.5,0
+    eff2:
+      position: target
+      effect: effectlib
+      effectlib:
+        class: ParticleEffect
+        visible_range: 150
+        particle: cloud
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
+        particle_count: 10
+        speed: 0.01
+        iterations: 1
+        relative_offset: 0,0.5,0
+Substitution_Jutsu_Mark:
+  spell-class: ".instant.MarkSpell"
+  name: "§7Substitution Jutsu"
+  cast-item: paper
+  permanent-marks: false
+  enable-default-marks: false
+  use-as-respawn-location: false
+  str-cast-self: §7You §2§lhave§r§7 prepared the §3§llocation§r§7.
+  modifiers:
+    - sneaking castinstead Substitution_Jutsu_Recall

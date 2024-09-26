@@ -1,0 +1,48 @@
+Fireball_Jutsu:
+  spell-class: ".instant.ParticleProjectileSpell"
+  name: "§cFireball Jutsu"
+  cast-item: magma_cream
+  cooldown: 15
+  charges: 3
+  projectile-velocity: 12.5
+  max-distance: 20
+  hit-radius: 0.5
+  hit-players: true
+  stop-on-hit-entity: true
+  spell-on-hit-entity: Fireball_Jutsu_Combust
+  relative_offset: 2,1,0
+  effects:
+    eff1:
+      position: special
+      effect: effectlib
+      effectlib:
+        class: ParticleEffect
+        visible_range: 150
+        particle: dust
+        color: F38204
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+        particle_count: 25
+        terations: 1
+        relative_offset: 0,0,0
+  str-cast-self: §cFireBall Jutsu§7!
+
+Fireball_Jutsu_Combust:
+  spell-class: ".targeted.CombustSpell"
+  fire-ticks: 100
+  fire-tick-damage: 1
+
+
+Fireball_Jutsu_multi:
+  spell-class: ".MultiSpell"
+  name: "§cMulti Fireball Jutsu"
+  cast-item: minecraft:magma_cream
+  cooldown: 10
+  spells:
+    - Fireball_mana-cost
+    - Fireball_Jutsu
+    - DELAY 20
+    - Fireball_Jutsu
+    - DELAY 20
+    - Fireball_Jutsu
