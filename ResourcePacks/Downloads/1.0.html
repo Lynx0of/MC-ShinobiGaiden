@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Resource Packs</title>
+    <style>
+        body { text-align: center; }
+    </style>
+    <script>
+        function downloadVersion() {
+            // Get the selected version from the dropdown
+            const version = document.getElementById("RPV").value;
+
+            // Construct the download link (adjust the base URL as needed)
+            const downloadLink = `https://yourdomain.com/downloads/ShinobiGaiden-${version}.zip`;
+
+            // Open the download link
+            window.location.href = downloadLink;
+        }
+
+        function copyLink() {
+            // Get the selected version from the dropdown
+            const version = document.getElementById("RPV").value;
+
+            // Construct the download link (adjust the base URL as needed)
+            const downloadLink = `https://yourdomain.com/downloads/ShinobiGaiden-${version}.zip`;
+
+            // Copy the download link to clipboard
+            navigator.clipboard.writeText(downloadLink).then(() => {
+                alert("Download link copied: " + downloadLink);
+            });
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <h1>Pick A Resource Pack Version</h1>
+
+        <!-- Dropdown to select resource pack version -->
+        <label for="RPV">Select Version:</label>
+        <select name="RPV" id="RPV">
+            <option value="1.0">ShinobiGaiden 1.0</option>
+            <option value="1.1">ShinobiGaiden 1.1</option>
+        </select>
+        <br><br>
+
+        <!-- Button to trigger download -->
+        <button onclick="downloadVersion()">Download</button>
+        <br><br>
+
+        <!-- Button to copy the download link -->
+        <button onclick="copyLink()">Copy Link</button>
+    </main>
+</body>
+</html>
