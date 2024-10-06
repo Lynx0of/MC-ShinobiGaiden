@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/knowledge_book"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "minecraft:item/override/statue_1"},
+    {"predicate": {"custom_model_data": 2},"model": "minecraft:item/override/lightcover"},
+    {"predicate": {"custom_model_data": 3},"model": "minecraft:item/override/glass_trim_full"},
+    {"predicate": {"custom_model_data": 4},"model": "minecraft:item/override/glass_trim_half"},
+    {"predicate": {"custom_model_data": 5},"model": "minecraft:item/knowledge_book"}
+  ]
+}
