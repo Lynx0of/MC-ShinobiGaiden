@@ -15,7 +15,7 @@
 
             // Handle official versions and the unofficial release
             if (version === "unofficial") {
-                downloadLink = "https://lynx0of.github.io/MC-ShinobiGaiden/ResourcePacks/ShinobiGaiden-Main-Resources.zip";
+                downloadLink = "https://lynx0of.github.io/MC-ShinobiGaiden/ResourcePacks/zip_unofficial.php"; // Server-side PHP to zip the file
             } else {
                 downloadLink = `https://lynx0of.github.io/MC-ShinobiGaiden/ResourcePacks/ShinobiGaiden-${version}.zip`;
             }
@@ -31,7 +31,7 @@
 
             // Handle official versions and the unofficial release
             if (version === "unofficial") {
-                downloadLink = "https://lynx0of.github.io/MC-ShinobiGaiden/ResourcePacks/ShinobiGaiden-Main-Resources.zip";
+                downloadLink = "https://lynx0of.github.io/MC-ShinobiGaiden/ResourcePacks/zip_unofficial.php"; // Link to the PHP file for zipping
             } else {
                 downloadLink = `https://lynx0of.github.io/MC-ShinobiGaiden/ResourcePacks/ShinobiGaiden-${version}.zip`;
             }
@@ -52,7 +52,7 @@
         <select name="RPV" id="RPV">
             <option value="1.1">ShinobiGaiden 1.1</option>
             <option value="1.0">ShinobiGaiden 1.0</option>
-            <option value="unofficial">UnofficialRelease (Newest)</option>
+            <option value="unofficial">Unofficial Release</option>
         </select>
         <br><br>
 
