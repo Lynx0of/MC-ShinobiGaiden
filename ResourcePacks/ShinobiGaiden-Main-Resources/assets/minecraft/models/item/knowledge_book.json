@@ -8,6 +8,7 @@
     {"predicate": {"custom_model_data": 2},"model": "minecraft:item/override/lightcover"},
     {"predicate": {"custom_model_data": 3},"model": "minecraft:item/override/glass_trim_full"},
     {"predicate": {"custom_model_data": 4},"model": "minecraft:item/override/glass_trim_half"},
-    {"predicate": {"custom_model_data": 5},"model": "minecraft:item/knowledge_book"}
+    {"predicate": {"custom_model_data": 5},"model": "minecraft:item/override/fence_railing"},
+    {"predicate": {"custom_model_data": 6},"model": "minecraft:item/knowledge_book"}
   ]
 }
