@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/override/books/book_enchanted",
-	"textures": {
-		"0": "minecraft:item/books/book_brown"
-	}
-}
