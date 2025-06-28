@@ -5,6 +5,6 @@
     "supported_formats":[7,50]
   },
   "fusion":{
-    "min_version":"1.2.2"
+    "min_version":"1.2.5"
   }
 }

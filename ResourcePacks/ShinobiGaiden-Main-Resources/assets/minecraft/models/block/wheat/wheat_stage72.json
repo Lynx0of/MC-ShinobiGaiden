@@ -1,0 +1,6 @@
+{
+    "parent": "block/tall_wheat",
+    "textures": {
+        "crop": "block/wheat_stage72"
+    }
+}

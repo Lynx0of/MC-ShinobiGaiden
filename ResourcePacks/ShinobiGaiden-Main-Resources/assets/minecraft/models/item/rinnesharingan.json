@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/eyes/rinnesharingan",
+		"particle": "item/eyes/rinnesharingan"
+	},
+	"elements": [
+		{
+			"from": [6.5, 3.75, 7],
+			"to": [9.5, 5.75, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 2.75, 7]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 4, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 4, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.84, 0.84, 0.84]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.84, 0.84, 0.84]
+		},
+		"head": {
+			"translation": [0, 3.34, -5.58],
+			"scale": [0.83, 0.83, 0.83]
+		}
+	}
+}
