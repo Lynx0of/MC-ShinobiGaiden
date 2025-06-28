@@ -1,0 +1,31 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#cross",
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 1.6, 0, 7.675 ],
+			"to": [ 12.8, 16, 7.676 ],
+			"rotation": { "origin": [ 8, 8, 6.875 ], "axis": "y", "angle": 45, "rescale": true },
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 8.325, 0, 1.6 ],
+			"to": [ 8.326, 16, 12.8 ],
+			"rotation": { "origin": [ 9.125, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		}
+	]
+}
