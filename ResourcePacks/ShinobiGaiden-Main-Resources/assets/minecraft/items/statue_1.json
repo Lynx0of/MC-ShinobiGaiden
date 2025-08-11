@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/override/statue_1",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": 13400942
+      }
+    ]
+  }
+}
